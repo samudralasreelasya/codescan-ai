@@ -1,0 +1,47 @@
+{
+  "total_scans": 8,
+  "total_bugs_found": 45,
+  "total_lines_analyzed": 753,
+  "history": [
+    {
+      "time": "02 Apr 2026 10:28",
+      "lines": 353,
+      "bugs_found": 22
+    },
+    {
+      "time": "02 Apr 2026 10:28",
+      "lines": 353,
+      "bugs_found": 22
+    },
+    {
+      "time": "02 Apr 2026 10:42",
+      "lines": 8,
+      "bugs_found": 0
+    },
+    {
+      "time": "02 Apr 2026 10:56",
+      "lines": 8,
+      "bugs_found": 0
+    },
+    {
+      "time": "02 Apr 2026 10:57",
+      "lines": 8,
+      "bugs_found": 0
+    },
+    {
+      "time": "02 Apr 2026 10:57",
+      "lines": 8,
+      "bugs_found": 0
+    },
+    {
+      "time": "02 Apr 2026 10:57",
+      "lines": 8,
+      "bugs_found": 0
+    },
+    {
+      "time": "02 Apr 2026 10:58",
+      "lines": 7,
+      "bugs_found": 1
+    }
+  ]
+}
