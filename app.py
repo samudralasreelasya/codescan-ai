@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # ─── Groq AI ────────────────────────────────────────────────────
-GROQ_API_KEY = " st.secrets.get("GROQ_API_KEY", "")"
+GROQ_API_KEY = st.secrets.get("GROQ_API_KEY", "")
 
 def ask_groq(prompt):
     try:
