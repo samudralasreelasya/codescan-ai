@@ -20,10 +20,11 @@ def ask_groq(prompt):
         from groq import Groq
         client = Groq(api_key=GROQ_API_KEY)
         response = client.chat.completions.create(
-            model_name="llama-3.1-8b-instant",
-            messages=[{"role": "user", "content": prompt}],
-            max_tokens=1024
-        )
+            model="llama-3.1-8b-instant",
+            messages=[
+                {"role": "user", "content": prompt}
+    ]
+)
         return response.choices[0].message.content
     except Exception as e:
         return f"AI unavailable: {str(e)}"
