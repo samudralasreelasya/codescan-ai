@@ -20,7 +20,7 @@ def ask_groq(prompt):
         from groq import Groq
         client = Groq(api_key=GROQ_API_KEY)
         response = client.chat.completions.create(
-            model="llama3-8b-8192",
+            model_name="llama-3.1-8b-instant",
             messages=[{"role": "user", "content": prompt}],
             max_tokens=1024
         )
